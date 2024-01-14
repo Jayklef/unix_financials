@@ -11,9 +11,8 @@ import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.stereotype.Service;
 
 @Service
-@AllArgsConstructor
 public class EmailServiceImpl implements EmailService {
-
+    @Autowired
     private JavaMailSender javaMailSender;
 
     @Value("${spring.mail.username}")

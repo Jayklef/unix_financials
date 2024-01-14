@@ -21,7 +21,7 @@ public class Runner implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        UserCred admin = UserCred.builder()
+   /*     UserCred admin = UserCred.builder()
                 .firstName("jerry")
                 .lastName("Amadi")
                 .email("jerry@gmail.com")
@@ -30,6 +30,6 @@ public class Runner implements CommandLineRunner {
                 .team(Team.ENGINEER)
                 .build();
         log.info("saving super admin with name {} to DB ", admin);
-        userCredRepository.save(admin);
+        userCredRepository.save(admin);  */
     }
 }
